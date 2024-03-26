@@ -1,0 +1,110 @@
+@media (max-width: 390px){
+    body{
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: black;
+            .titulo{
+                display: flex;
+                align-items: center;
+                h1{
+                    
+                    font-family: Outfit;
+                    font-weight: 700;
+                    color: white;
+                    margin-left: 20px;
+                    font-size: 40px;
+                    
+                }
+            }
+            .logo{
+                img{
+                    width: 85px;
+                    height: 70px;
+                    margin-right: 20px;
+                }
+            }
+        }
+        main{
+            .redes{
+                .titulo-redes{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 20px;
+                    h2{
+                        font-family: outfit;
+                        font-weight: 600;
+                        text-align: center;
+                        font-size: 30px;
+
+                    }
+                }
+                .redes-logos{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content:space-around;
+                    margin: 5px 50px;
+                    a{
+                        
+                        transition: 0.5s ease;
+                        &:hover{
+                            transform: scale(1.09);
+                        transition: 0.5s ease;
+                        }
+                        img{
+                            width: 40px;
+                            height: 40px;
+                            box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+                            
+                        }
+                    }
+                }
+                .botones{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    margin-bottom: 30px;
+                    
+                    a{
+                        padding: 5px;
+                        background-color: rgb(0, 131, 131);
+                        font-family: Outfit;
+                        color: white;
+                        height: auto;
+                        width: 150px;
+                        text-align: center;
+                        text-decoration: none;
+                        border-radius: 20px;
+                        font-weight: 500;
+                        margin-top: 30px;
+                        transition: 0.5s ease;
+                        &:hover{
+                            background-color: rgb(0, 65, 65);
+                            transition: 0.5s ease;
+                        }
+                        
+                    }
+                }
+
+            }
+        }
+        footer{
+            margin-top: 20px;
+            background-color: rgb(0, 131, 131);
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: center;
+            height: 40px;
+            p{
+                margin-top: 10px;
+                font-family: outfit;
+                color: white;
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+    }
+}

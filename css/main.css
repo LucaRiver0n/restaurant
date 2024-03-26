@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+@media (max-width: 390px) {
+  body header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+  }
+  body header .titulo {
+    display: flex;
+    align-items: center;
+  }
+  body header .titulo h1 {
+    font-family: Outfit;
+    font-weight: 700;
+    color: white;
+    margin-left: 20px;
+    font-size: 40px;
+  }
+  body header .logo img {
+    width: 85px;
+    height: 70px;
+    margin-right: 20px;
+  }
+  body main .redes .titulo-redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  body main .redes .titulo-redes h2 {
+    font-family: outfit;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+  }
+  body main .redes .redes-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px 50px;
+  }
+  body main .redes .redes-logos a {
+    transition: 0.5s ease;
+  }
+  body main .redes .redes-logos a:hover {
+    transform: scale(1.09);
+    transition: 0.5s ease;
+  }
+  body main .redes .redes-logos a img {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+  }
+  body main .redes .botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+  }
+  body main .redes .botones a {
+    padding: 5px;
+    background-color: rgb(0, 131, 131);
+    font-family: Outfit;
+    color: white;
+    height: auto;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    transition: 0.5s ease;
+  }
+  body main .redes .botones a:hover {
+    background-color: rgb(0, 65, 65);
+    transition: 0.5s ease;
+  }
+  body footer {
+    margin-top: 20px;
+    background-color: rgb(0, 131, 131);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    height: 40px;
+  }
+  body footer p {
+    margin-top: 10px;
+    font-family: outfit;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
